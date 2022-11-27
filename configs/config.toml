@@ -1,0 +1,21 @@
+[Logger]
+Level = "DEBUG"
+LogFile="../main.log"
+
+[DB]
+DbHost="postgres_db" 
+DbPort="5432"
+DbName="otusfinalproj" 
+DbUserName="otusfinalproj" 
+DbPassward="otusfinalproj"
+
+[Http]
+Host="localhost"
+Port="5000"
+TimeOutSec=10
+ReadHeaderTimeout=5
+
+[Bandit]
+FullLearnigCount=100
+PartialLearningCount=100
+FinalRandomPecent=10
